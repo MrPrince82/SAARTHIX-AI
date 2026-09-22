@@ -243,13 +243,13 @@ Get AI-powered technical and career guidance through an intelligent mentor.
 
 ### 🤖 AI Career Mentor
 
-![SAARTHIX AI Mentor](screenshots/ai mentor.png)
+![SAARTHIX AI Mentor](screenshots/ai-mentor.png)
 
 ---
 
 ### 🎙️ AI Mock Interview
 
-![SAARTHIX AI Mock Interview](screenshots/mock interview.png)
+![SAARTHIX AI Mock Interview](screenshots/mock-interview.png)
 
 ---
 # 🛠️ Technology Stack
