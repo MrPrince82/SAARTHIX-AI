@@ -208,29 +208,50 @@ Get AI-powered technical and career guidance through an intelligent mentor.
 - 🛠️ Technology guidance
 
 ---
+
 ## 📸 Project Screenshots
 
 ### 🏠 Landing Page
-<img src="screenshots/home.png" width="100%">
 
-### 📊 Dashboard
-<img src="screenshots/dashboard.png" width="100%">
+![SAARTHIX AI Landing Page](screenshots/Home.png)
+
+---
+
+### 📊 Student Dashboard
+
+![SAARTHIX AI Dashboard](screenshots/dashboard.png)
+
+---
 
 ### 📄 Resume Analysis
-<img src="screenshots/resume-analysis.png" width="100%">
+
+![SAARTHIX AI Resume Analysis](screenshots/resume-analysis.png)
+
+---
 
 ### 🎯 Job Description Matcher
-<img src="screenshots/jd-matcher.png" width="100%">
+
+![SAARTHIX AI JD Matcher](screenshots/jd matcher.png)
+
+---
 
 ### 🗺️ Career Roadmap
-<img src="screenshots/career-roadmap.png" width="100%">
+
+![SAARTHIX AI Career Roadmap](screenshots/career-roadmap.png)
+
+---
 
 ### 🤖 AI Career Mentor
-<img src="screenshots/ai-mentor.png" width="100%">
 
-### 🎙️ Mock Interview
-<img src="screenshots/mock-interview.png" width="100%">
+![SAARTHIX AI Mentor](screenshots/ai mentor.png)
 
+---
+
+### 🎙️ AI Mock Interview
+
+![SAARTHIX AI Mock Interview](screenshots/mock interview.png)
+
+---
 # 🛠️ Technology Stack
 
 ### Frontend
