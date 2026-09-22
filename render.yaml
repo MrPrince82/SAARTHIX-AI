@@ -1,0 +1,42 @@
+services:
+  # ===========================================================================
+  # 1. SAARTHIX AI - BACKEND WEB SERVICE
+  # ===========================================================================
+  - type: web
+    name: saarthix-ai-backend
+    runtime: node
+    plan: free
+    region: oregon
+    rootDir: server
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: PORT
+        value: 5000
+      - key: MONGO_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false
+      - key: CLIENT_URL
+        sync: false
+
+  # ===========================================================================
+  # 2. SAARTHIX AI - FRONTEND STATIC SITE
+  # ===========================================================================
+  - type: static
+    name: saarthix-ai-frontend
+    plan: free
+    region: oregon
+    rootDir: client
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: VITE_API_URL
+        sync: false
