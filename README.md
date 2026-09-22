@@ -208,6 +208,28 @@ Get AI-powered technical and career guidance through an intelligent mentor.
 - 🛠️ Technology guidance
 
 ---
+## 📸 Project Screenshots
+
+### 🏠 Landing Page
+<img src="screenshots/home.png" width="100%">
+
+### 📊 Dashboard
+<img src="screenshots/dashboard.png" width="100%">
+
+### 📄 Resume Analysis
+<img src="screenshots/resume-analysis.png" width="100%">
+
+### 🎯 Job Description Matcher
+<img src="screenshots/jd-matcher.png" width="100%">
+
+### 🗺️ Career Roadmap
+<img src="screenshots/career-roadmap.png" width="100%">
+
+### 🤖 AI Career Mentor
+<img src="screenshots/ai-mentor.png" width="100%">
+
+### 🎙️ Mock Interview
+<img src="screenshots/mock-interview.png" width="100%">
 
 # 🛠️ Technology Stack
 
