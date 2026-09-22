@@ -1,156 +1,494 @@
-# SAARTHIX AI — Next-Gen AI Career & Placement Intelligence Platform
+# 🚀 SAARTHIX AI
 
-[![React](https://img.shields.io/badge/Frontend-React%20%2B%20Vite-61dafb?logo=react&logoColor=black)](https://react.dev/)
-[![Node.js](https://img.shields.io/badge/Backend-Node.js%20%2B%20Express-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
-[![MongoDB](https://img.shields.io/badge/Database-MongoDB%20Atlas-47A248?logo=mongodb&logoColor=white)](https://www.mongodb.com/)
-[![Groq](https://img.shields.io/badge/AI%20Inference-Groq%20Qwen%203.8--27B-f55036)](https://groq.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+### AI-Powered Career & Placement Intelligence Platform
 
-**SAARTHIX AI** is an intelligent, multi-role career preparation and placement readiness platform engineered for Computer Science, IT students, and tech professionals. It dynamically adapts its entire intelligence engine across **30+ specialized job roles** (from Full Stack Developer and Cloud Engineer to Data Scientist and Cybersecurity Analyst).
+SAARTHIX AI is a multi-role career preparation and placement-readiness platform designed for Computer Science, IT students, and technology professionals.
+
+It combines **AI-powered interview practice, resume analysis, job-description matching, career roadmaps, and an AI mentor** in one platform. The system adapts its guidance across **30+ specialized technology roles** and different experience levels.
 
 ---
 
-## 🌟 Flagship Features
+## ✨ Highlights
+
+- 🎙️ AI Mock Interview Simulator
+- 🎯 Job Description (JD) Matcher
+- 📄 Resume Analyzer & ATS Scorer
+- ✍️ Resume Bullet Rewriter using the Google XYZ formula
+- 🗺️ Role-Adaptive Career Roadmaps
+- 🤖 24/7 SAARTHIX AI Mentor
+- 🔐 JWT-based authentication
+- 👤 Multi-role user experience
+- ☁️ Render-ready full-stack deployment
+
+---
+
+## 🌟 Core Features
 
 ### 1. 🎙️ AI Mock Interview Simulator
-* **Dynamic Role Adaptation**: Choose from 30+ tech job roles and 3 experience levels (Entry, Mid, Senior).
-* **3 Interview Modes**:
-  * ⚡ **Technical & Architecture**: Deep dive into framework internals, memory management, databases, and language mechanics.
-  * 🏗️ **System Design & Scalability**: Distributed architecture, caching, microservices, and database indexing.
-  * 🤝 **Behavioral & STAR**: Real-world engineering scenarios, deadline management, and technical conflict resolution.
-* **Instant 1–10 AI Evaluation**: Provides objective numerical scoring, highlighted strengths, and identified missing concepts.
-* **🏆 Master-Class Senior Model Answers**: View optimal, senior-level model responses for every single question.
-* **Executive Hiring Scorecard**: Comprehensive final hiring verdict (*Strong Hire*, *Hire*, *Leaning Hire*, *Needs Practice*), strengths matrix, and critical areas to revise before real interviews.
 
-### 2. 🎯 Real-Time Job Description (JD) Matcher
-* Paste any job posting from **LinkedIn, Indeed, or career portals**.
-* **ATS Fit Percentage**: Computes an accurate semantic and keyword match score (0–100%).
-* **Side-by-Side Keyword Analysis**:
-  * ✅ **Matching Keywords** detected in your resume.
-  * ⚠️ **Missing / Underrepresented Requirements** needed to pass ATS screens.
-* **Tailored Optimization Tips**: Generates 3–4 specific, actionable resume modifications to maximize interview callbacks.
+Practice interviews based on your target role and experience level.
 
-### 3. ✍️ Google XYZ-Formula Resume Bullet Rewriter
-* Turns ordinary, duty-focused resume bullet points into high-impact, metric-driven statements.
-* Follows the Google formula: *"Accomplished [X] as measured by [Y], by doing [Z]"*.
-* Generates 3 distinct variations:
-  * ⚡ **Metric & Performance Impact** (quantified latency reduction, scale, %).
-  * 🏗️ **Technical Architecture & Depth** (system design, concurrency, indexing).
-  * 🤝 **Ownership & Delivery** (cross-functional delivery, zero regressions).
-* **1-Click Copy**: Instant clipboard copy button for rapid resume editing.
+**Includes:**
+- 30+ technology roles
+- Entry, Mid, and Senior experience levels
+- Technical & Architecture interviews
+- System Design & Scalability interviews
+- Behavioral interviews using STAR-style scenarios
+- AI evaluation with a 1–10 score
+- Strengths and missing-concept analysis
+- Senior-level model answers
+- Final interview-readiness scorecard
 
-### 4. 📄 Multi-Role Resume Analyzer & ATS Scorer
-* Client-side PDF text extraction powered by `pdfjs-dist`.
-* Domain-specific ATS scoring comparing candidate skills against 30+ tech role benchmarks.
-* Section-by-section breakdown (Education, Experience, Skills, Projects, Certifications).
+---
+
+### 2. 🎯 Job Description Matcher
+
+Compare your resume with a real job description.
+
+**Features:**
+- Paste job descriptions from LinkedIn, Indeed, or other career portals
+- ATS fit percentage
+- Matching keyword detection
+- Missing and underrepresented requirement detection
+- Actionable resume optimization suggestions
+
+---
+
+### 3. ✍️ Resume Bullet Rewriter
+
+Transform ordinary resume bullets into stronger, impact-focused statements.
+
+The feature follows the Google XYZ approach:
+
+> Accomplished **X**, as measured by **Y**, by doing **Z**.
+
+It provides variations focused on:
+
+- ⚡ Metrics & Performance
+- 🏗️ Technical Architecture
+- 🤝 Ownership & Delivery
+
+---
+
+### 4. 📄 Resume Analyzer & ATS Scorer
+
+Analyze a resume against technology-role benchmarks.
+
+**Includes:**
+- Client-side PDF text extraction using `pdfjs-dist`
+- ATS-oriented scoring
+- Role-specific skill comparison
+- Section-level analysis for:
+  - Education
+  - Experience
+  - Skills
+  - Projects
+  - Certifications
+
+---
 
 ### 5. 🗺️ Role-Adaptive Career Roadmap
-* Personalized learning pathways divided into prioritized phases.
-* Direct official documentation links for languages, frameworks, databases, and DevOps tools.
-* Interactive progress tracking saved per user profile.
 
-### 6. 🤖 24/7 SAARTHIX AI Mentor
-* Powered by Groq's high-speed active LLM (`qwen/qwen3.8-27b`).
-* Context-aware conversational mentor loaded with domain benchmarks, portfolio project recommendations, and technical interview guidance.
+Build a structured learning path for your target technology role.
+
+**Includes:**
+- Prioritized learning phases
+- Recommended technologies and skills
+- Links to official documentation
+- Progress tracking linked to the user profile
 
 ---
 
-## 🛠️ Architecture & Tech Stack
+### 6. 🤖 SAARTHIX AI Mentor
 
-```mermaid
-flowchart TD
-    User([User Browser]) -->|Vite / React SPA| Client[Frontend: React + Vite]
-    Client -->|REST API / JWT| Server[Backend: Node.js + Express]
-    Server -->|Mongoose ODM| DB[(MongoDB Atlas)]
-    Server -->|High-Speed Inference| Groq[Groq AI Cloud: Qwen 3.8-27B]
+An AI mentor designed to provide career and technical guidance.
+
+**Powered by:**
+- Groq API
+- Qwen-based language model
+- Context-aware career and interview guidance
+
+The mentor can assist with technical preparation, project ideas, interview guidance, and career-focused learning.
+
+---
+
+## 🏗️ Architecture
+
+```text
+                    ┌─────────────────────────┐
+                    │       SAARTHIX AI       │
+                    │  Career & Placement AI  │
+                    └────────────┬────────────┘
+                                 │
+                ┌────────────────┴────────────────┐
+                │                                 │
+        ┌───────▼────────┐                ┌──────▼─────────┐
+        │    Frontend    │                │     Backend    │
+        │ React + Vite   │◄──────────────►│ Node + Express │
+        └────────────────┘                └───────┬────────┘
+                                                  │
+                              ┌───────────────────┼───────────────────┐
+                              │                   │                   │
+                       ┌──────▼──────┐     ┌──────▼──────┐    ┌──────▼──────┐
+                       │  MongoDB    │     │   Groq AI   │    │ JWT / Auth  │
+                       │    Atlas    │     │    Engine    │    │             │
+                       └─────────────┘     └─────────────┘    └─────────────┘
 ```
 
-* **Frontend**: React 19, Vite, PDF.js (`pdfjs-dist`), Modern High-Contrast CSS.
-* **Backend**: Node.js, Express.js, JWT Authentication, CORS.
-* **Database**: MongoDB Atlas via Mongoose.
-* **AI Engine**: Groq SDK with `qwen/qwen3.8-27b` for sub-second structured JSON completions.
+---
+
+## 🛠️ Technology Stack
+
+### Frontend
+- React 19
+- Vite
+- JavaScript
+- PDF.js (`pdfjs-dist`)
+- Modern CSS
+
+### Backend
+- Node.js
+- Express.js
+- JWT Authentication
+- CORS
+- bcryptjs
+
+### Database
+- MongoDB Atlas
+- Mongoose
+
+### AI
+- Groq SDK
+- Qwen-based LLM
+
+### Deployment
+- Render
+- GitHub
 
 ---
 
-## 🚀 Local Development Setup
+## 📁 Project Structure
 
-### 1. Clone the repository
+```text
+SAARTHIX-AI/
+│
+├── client/                 # React + Vite frontend
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   └── vite.config.*
+│
+├── server/                 # Node.js + Express backend
+│   ├── routes/
+│   ├── models/
+│   ├── middleware/
+│   ├── server.js
+│   └── package.json
+│
+├── .gitignore
+├── LICENSE
+├── README.md
+└── render.yaml
+```
+
+---
+
+# 🚀 Getting Started
+
+## Prerequisites
+
+Make sure you have installed:
+
+- [Node.js](https://nodejs.org/)
+- npm
+- MongoDB Atlas account
+- Groq API key
+
+---
+
+## 1. Clone the Repository
+
 ```bash
-git clone https://github.com/<your-username>/saarthix-ai.git
-cd saarthix-ai
+git clone https://github.com/MrPrince82/SAARTHIX-AI.git
+cd SAARTHIX-AI
 ```
 
-### 2. Backend Setup
+---
+
+## 2. Backend Setup
+
+Open a terminal:
+
 ```bash
 cd server
 npm install
 ```
-Create a `.env` file in `server/` (see `server/.env.example`):
+
+Create a `.env` file inside the `server` directory:
+
 ```env
 PORT=5000
 CLIENT_URL=http://localhost:5173
 MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret_key
+JWT_SECRET=your_secure_jwt_secret
 GROQ_API_KEY=your_groq_api_key
 GROQ_MODEL=qwen/qwen3.8-27b
 ```
-Start backend server:
+
+> **Never commit your `.env` file or expose API keys in GitHub.**
+
+Start the backend:
+
 ```bash
 npm start
-# or with nodemon:
+```
+
+For development:
+
+```bash
 npm run dev
 ```
 
-### 3. Frontend Setup
-In a new terminal:
+---
+
+## 3. Frontend Setup
+
+Open another terminal:
+
 ```bash
 cd client
 npm install
 npm run dev
 ```
-Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+Open:
+
+```text
+http://localhost:5173
+```
 
 ---
 
-## ☁️ Cloud Deployment Guide
+# ☁️ Deploying on Render
 
-### Option A: Backend on Render (Free)
-1. Go to [Render.com](https://render.com) and create a **New Web Service**.
-2. Connect your GitHub repository.
-3. Set the following:
-   * **Root Directory**: `server`
-   * **Build Command**: `npm install`
-   * **Start Command**: `node server.js`
-4. In **Environment Variables**, add:
-   * `MONGO_URI`: Your MongoDB connection string.
-   * `JWT_SECRET`: A secure random string.
-   * `GROQ_API_KEY`: Your Groq API key.
-   * `CLIENT_URL`: Your deployed frontend URL (e.g. `https://saarthix-ai.vercel.app`).
-5. Click **Deploy**. Note your backend URL (e.g. `https://saarthix-api.onrender.com`).
+The project is structured as a monorepo with separate frontend and backend services.
 
----
+## Backend — Render Web Service
 
-### Option B: Frontend on Vercel (Free)
-1. Go to [Vercel.com](https://vercel.com) and click **Add New Project**.
-2. Import your GitHub repository.
-3. Configure project settings:
-   * **Root Directory**: `client`
-   * **Framework Preset**: `Vite`
-   * **Build Command**: `npm run build`
-   * **Output Directory**: `dist`
-4. In **Environment Variables**, add:
-   * `VITE_API_URL`: Your deployed backend URL (e.g. `https://saarthix-api.onrender.com`).
-5. Click **Deploy**.
+Create a **Web Service** using the GitHub repository.
 
----
+Use:
 
-## 🛡️ Security Best Practices
-* Sensitive API keys (`GROQ_API_KEY`, `MONGO_URI`, `JWT_SECRET`) are never committed to version control.
-* `.gitignore` excludes all `.env` files, build directories, and node_modules.
-* Passwords are securely hashed with `bcryptjs` before database storage.
-* Authenticated endpoints require valid JWT Bearer tokens with strict user validation.
+| Setting | Value |
+|---|---|
+| Root Directory | `server` |
+| Build Command | `npm install` |
+| Start Command | `npm start` |
+| Branch | `main` |
+
+Add these environment variables:
+
+```env
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secure_jwt_secret
+GROQ_API_KEY=your_groq_api_key
+GROQ_MODEL=qwen/qwen3.8-27b
+CLIENT_URL=your_frontend_render_url
+```
+
+The currently deployed backend is:
+
+**https://saarthix-ai-backend.onrender.com**
 
 ---
 
-## 📄 License
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+## Frontend — Render Static Site
+
+Create a **Static Site** using the same GitHub repository.
+
+Use:
+
+| Setting | Value |
+|---|---|
+| Root Directory | `client` |
+| Build Command | `npm install && npm run build` |
+| Publish Directory | `dist` |
+| Branch | `main` |
+
+Add:
+
+```env
+VITE_API_URL=https://saarthix-ai-backend.onrender.com
+```
+
+For a React/Vite single-page application, configure the Render rewrite:
+
+```text
+Source:      /*
+Destination: /index.html
+Type:        Rewrite
+```
+
+---
+
+## 🔐 Environment Variables
+
+| Variable | Purpose |
+|---|---|
+| `MONGO_URI` | MongoDB Atlas connection string |
+| `JWT_SECRET` | Secret used for JWT authentication |
+| `GROQ_API_KEY` | Groq API authentication |
+| `GROQ_MODEL` | AI model used by the application |
+| `CLIENT_URL` | Allowed frontend origin for backend CORS |
+| `VITE_API_URL` | Backend API URL used by the Vite frontend |
+
+### Security Notes
+
+- Never commit API keys.
+- Keep `.env` files in `.gitignore`.
+- Use a strong, unique `JWT_SECRET` in production.
+- Restrict MongoDB Atlas network access appropriately for your deployment.
+- Rotate credentials immediately if they are accidentally exposed.
+
+---
+
+# 🔄 Application Flow
+
+```text
+User
+  │
+  ▼
+React + Vite Frontend
+  │
+  │ HTTP API Requests
+  ▼
+Node.js + Express Backend
+  │
+  ├──────────────► JWT Authentication
+  │
+  ├──────────────► MongoDB Atlas
+  │
+  └──────────────► Groq AI
+                         │
+                         ▼
+                    AI Response
+                         │
+                         ▼
+                    Frontend UI
+```
+
+---
+
+# 🎯 Target Roles
+
+SAARTHIX AI is designed to adapt preparation across a broad range of technology roles, including areas such as:
+
+- Full Stack Development
+- Software Development
+- Cloud Engineering
+- Data Science
+- Data Analytics
+- Cybersecurity
+- DevOps
+- Backend Development
+- Frontend Development
+
+The platform supports **30+ specialized technology roles** through its role-adaptive features.
+
+---
+
+# 📊 Current Deployment
+
+| Component | Platform | Status |
+|---|---|---|
+| Frontend | Render Static Site | ✅ Live |
+| Backend | Render Web Service | ✅ Live |
+| Database | MongoDB Atlas | ☁️ Cloud |
+| AI Engine | Groq | 🤖 API |
+| Source Code | GitHub | ✅ Public |
+
+**Repository:**  
+https://github.com/MrPrince82/SAARTHIX-AI
+
+**Backend:**  
+https://saarthix-ai-backend.onrender.com
+
+---
+
+# 🧪 Build Verification
+
+The production frontend is built with:
+
+```bash
+npm run build
+```
+
+The application currently builds successfully with Vite.
+
+A Vite warning about large JavaScript chunks may appear during production builds. This does not prevent the application from building successfully.
+
+---
+
+# 🛡️ Security
+
+SAARTHIX AI includes:
+
+- JWT-based authentication
+- Password hashing with `bcryptjs`
+- Protected authenticated endpoints
+- CORS configuration
+- Environment-based secret management
+- `.gitignore` protection for `.env` files
+
+**Important:** Do not publish real values for `MONGO_URI`, `JWT_SECRET`, or `GROQ_API_KEY` in this README or in the repository.
+
+---
+
+# 🤝 Contributing
+
+Contributions and improvements are welcome.
+
+1. Fork the repository.
+2. Create a feature branch.
+
+```bash
+git checkout -b feature/your-feature
+```
+
+3. Make your changes.
+4. Commit your changes.
+
+```bash
+git commit -m "Add your feature"
+```
+
+5. Push the branch.
+
+```bash
+git push origin feature/your-feature
+```
+
+6. Open a Pull Request.
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 👨‍💻 Author
+
+**Prince Kumar**
+
+GitHub: [@MrPrince82](https://github.com/MrPrince82)
+
+---
+
+<p align="center">
+  <strong>SAARTHIX AI</strong><br>
+  AI-powered career preparation, interview practice & placement intelligence.
+</p>
